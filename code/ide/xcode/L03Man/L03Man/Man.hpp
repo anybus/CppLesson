@@ -10,5 +10,11 @@
 #define Man_hpp
 
 #include <stdio.h>
+#include "People.hpp"
+using namespace jikexueyuan;
+
+class Man:public People{
+public:
+};
 
 #endif /* Man_hpp */

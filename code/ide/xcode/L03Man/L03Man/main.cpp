@@ -7,9 +7,14 @@
 //
 
 #include <iostream>
+//#include "People.hpp"
+//using namespace jikexueyuan;
+#include "Man.hpp"
 
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+    People *man = new Man();
+    man->sayHello();
+    int age = man->getAge();
+    std::cout<< age ;
     return 0;
 }
